@@ -135,3 +135,33 @@
 //     const value = shoppingCart[keyName];
 //     console.log(keyName, value)
 // }
+
+
+
+
+//----------------***Module = 19-9***-------------------------
+// switch statement
+
+
+const color = 'blue';
+
+switch (color) {
+    case 'green':
+        console.log('You are green friend');
+        break;
+
+    case 'red':
+        console.log('You are my red friend');
+        break;
+
+    case 'yellow':
+        console.log('You are my yellow friend');
+        break;
+
+    case 'blue':
+        console.log('You are my blue friend');
+        break;
+
+    default:
+        console.log('You are not my friend at all');
+}
